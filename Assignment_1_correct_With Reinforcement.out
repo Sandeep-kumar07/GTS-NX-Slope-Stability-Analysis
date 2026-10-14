@@ -1,0 +1,413 @@
+*********************************************************************************************************************
+**                      MEC V1.9.8  - Modeling, Integrated Design & Analysis Software                               *
+**                                          GENERAL ANALYSIS SOLUTION                                               *
+*********************************************************************************************************************
+                                       ,...:+##########*+******************+*################****
+                                ,,.*#########+.                                         :*###############
+                             ..#########+.+.                                                   .#############*
+     .#############,        ,+#########::##.                                                     .:############*:
+     .##############:      .+#########.:###.                                                       .+###########*:.
+     .################.   .#########::#####.                                                          *.#########*:.
+     .#################. .+########+.###### .+######: *#########**+:.             *****         +*######.*########+.
+     .#################+..#########.####### .#######: ################.          ########      *#########,+########.,
+     .######## :#######:+########:######### .#######: #######***#########*     .##########    ########+.   ,,#######:
+     .######## .#######.########+.######### .#######: #######   ..########,   .############   #########+:.   :######+
+     :########  .*####:########: .######### .#######: #######     ,.######*   ######,,######   *############:+ #####, 
+     :########  :#####:########: .######### .#######: #######     ,.#######  .#####+,,#######.  +#############+.###:,
+     :########   .####:########. .######### .#######: #######     .:####### .######  ,*######,    +*############.##.
+     :########   .####.########. .######### .#######: #######     ,:######*.:######   ,######*,     +**##########.#:
+     :########   .+###:#######+  .######### .#######: #######    ,.*######+,######*   ,#######, ,,     :+*#########+
+     :########    .##*:#######:  .######### .#######: #######    ,,####### +######,   ,*######:.######,  .:*#######+
+     :########    .##++#######.  .######### .#######: #######   ..*#######,#######     .#######.######.,  .:#######+
+     :########    .##:*#######.  .######### .#######: ###################*.######*      #######..######, ,,:#######+
+     :########    .+#.########   .######### .#######: ################## ,#######       :#######...##############  
+                                                                                                                      
+                           COPYRIGHT (C) 1989-2026. MIDAS Information Technology Co., Ltd.                            
+                           ALL RIGHTS RESERVED MIDAS IT Co., Ltd. (Mar 19 2026)                                       
+                                                                                                                      
+*********************************************************************************************************************
+
+
+                                   G R I D   P O I N T   A U T O S P C   T A B L E
+
+      GRID               CONSTRAINED
+       ID                 COMPONENT
+        1                    R3
+        2                    R3
+        3                    R3
+        4                    R3
+        5                    R3
+        6                    R3
+        7                    R3
+        8                    R3
+        9                    R3
+       10                    R3
+       11                    R3
+       12                    R3
+       15                    R3
+       17                    R3
+       20                    R3
+       21                    R3
+       22                    R3
+       23                    R3
+       24                    R3
+       25                    R3
+       26                    R3
+       27                    R3
+       28                    R3
+       29                    R3
+       30                    R3
+       31                    R3
+       48                    R3
+       77                    R3
+       78                    R3
+       79                    R3
+       80                    R3
+       81                    R3
+       82                    R3
+       83                    R3
+       84                    R3
+       85                    R3
+       86                    R3
+       87                    R3
+       88                    R3
+       89                    R3
+       90                    R3
+       91                    R3
+       92                    R3
+       93                    R3
+       94                    R3
+       95                    R3
+       96                    R3
+       97                    R3
+      100                    R3
+      101                    R3
+      102                    R3
+      103                    R3
+      104                    R3
+      105                    R3
+      106                    R3
+      107                    R3
+      127                    R3
+      128                    R3
+      129                    R3
+      130                    R3
+      131                    R3
+      132                    R3
+      133                    R3
+      134                    R3
+      135                    R3
+      136                    R3
+      141                    R3
+      142                    R3
+      143                    R3
+      144                    R3
+      145                    R3
+      146                    R3
+      147                    R3
+      148                    R3
+      149                    R3
+      150                    R3
+      531                    R3
+
+     NEWTON SOLVER STATISTICS FOR 1ST LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             0           0              YES
+   C                 1       3.289E-02    7.330E-02   5.159E-05      NO             0           1              YES
+   C                 2       1.870E-02    1.447E-02   2.655E-05      NO             0           0              YES
+   C                 3       2.422E-03    2.860E-03   7.665E-06     YES             0           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 2ND LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             0           0              YES
+   C                 1       1.011E-01    3.876E-03   3.583E-02     YES             0           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 3RD LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             0           0              YES
+   C                 1       1.635E-01    5.823E-03   2.008E-01     YES             0           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 4TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             0           0              YES
+   C                 1       1.027E-01    2.050E-03   3.371E-01     YES             0           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 5TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             0           0              YES
+   C                 1       1.543E-01    4.816E-03   5.534E-01     YES             0           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 6TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             0           0              YES
+   C                 1       2.032E-01    3.652E-03   1.017E+00     YES             0           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 7TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             0           0              YES
+   C                 1       1.882E-01    4.094E-03   1.180E+01     YES             0           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 8TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             0           0              YES
+   C                 1       3.506E-01    1.695E-02   4.277E-03      NO             0           0              YES
+   C                 2       2.625E-01    2.617E-02   1.206E-01      NO             0           0              YES
+   C                 3       2.217E-01    9.042E-03   1.494E-01     YES             0           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 9TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             0           0              YES
+   C                 1       1.651E-01    2.312E-02   1.583E+00      NO             0           0              YES
+   C                 2       2.036E-01    9.160E-03   7.307E+01     YES             0           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 10TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             0           0              YES
+   C                 1       3.395E-01    8.621E-03   2.187E+01     YES             0           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 11TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             0           0              YES
+   C                 1       4.821E-01    1.957E-02   1.254E+01      NO             0           0              YES
+   C                 2       3.241E-01    1.528E-02   9.079E-01      NO             0           0              YES
+   C                 3       7.478E-02    1.778E-02   1.885E-01      NO             0           3              YES
+   C                 4       2.537E-01    1.702E-02   3.290E-01      NO             0           0              YES
+   C                 5       3.739E-01    2.118E-02   2.875E-01      NO             0           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 11TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             1           0              YES
+   C                 1       4.947E-01    1.913E-02   4.044E-01      NO             1           0              YES
+   C                 2       3.003E-01    3.060E-02   2.616E-01      NO             1           0              YES
+   C                 3       3.722E-01    1.241E-02   3.434E-01      NO             1           0              YES
+   C                 4       4.719E-01    2.105E-02   2.825E-01      NO             1           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 11TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             2           0              YES
+   C                 1       5.735E-01    2.023E-02   9.820E-02      NO             2           0              YES
+   C                 2       2.453E-01    1.784E-02   3.102E-01      NO             2           1              YES
+   C                 3       3.709E-01    1.186E-02   3.067E-01      NO             2           0              YES
+   C                 4       5.343E-01    1.529E-02   3.780E-01      NO             2           0              YES
+   C                 5       6.541E-01    3.366E-02   3.112E-01      NO             2           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 11TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             3           0              YES
+   C                 1       6.756E-01    1.917E-02   6.174E-02      NO             3           0              YES
+   C                 2       3.771E-01    2.636E-02   2.795E-01      NO             3           0              YES
+   C                 3       4.102E-01    2.465E-02   1.096E-01      NO             3           0              YES
+   C                 4       4.884E-01    2.269E-02   2.732E-01      NO             3           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 11TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             4           0              YES
+   C                 1       6.911E-01    1.281E-02   1.186E-01      NO             4           0              YES
+   C                 2       4.753E-01    2.794E-02   7.487E-02      NO             4           0              YES
+   C                 3       4.282E-01    1.146E-02   3.259E-01      NO             4           0              YES
+   C                 4       5.164E-01    2.018E-02   2.865E-01      NO             4           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 11TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             5           0              YES
+   C                 1       5.946E-01    8.242E-03   3.357E-01     YES             5           3              YES
+
+     NEWTON SOLVER STATISTICS FOR 12TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             5           0              YES
+   C                 1       7.822E-01    1.226E-02   1.128E+00      NO             5           1              YES
+   C                 2       5.306E-01    8.589E-03   1.028E+00     YES             5           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 13TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             4           0              YES
+   C                 1       5.822E-01    3.068E-03   5.504E-01     YES             4           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 14TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             3           0              YES
+   C                 1       5.458E-01    5.948E-03   2.725E+00     YES             3           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 15TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             2           0              YES
+   C                 1       3.915E-01    7.629E-03   1.693E+00     YES             2           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 16TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             1           0              YES
+   C                 1       2.966E-01    2.030E-02   7.809E+00      NO             1           0              YES
+   C                 2       2.223E-01    1.378E-02   2.700E+00      NO             1           0              YES
+   C                 3       1.787E-01    4.103E-02   6.190E-02      NO             1           0              YES
+   C                 4       3.413E-01    1.749E-02   7.040E-01      NO             1           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 16TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             2           0              YES
+   C                 1       2.707E-01    5.349E-03   1.693E+00     YES             2           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 17TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             2           0              YES
+   C                 1       3.225E-01    7.786E-03   1.245E+00     YES             2           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 18TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             0           0              YES
+   C                 1       5.229E-01    4.238E-02   6.258E-01      NO             0           0              YES
+   C                 2       2.268E-01    5.459E-02   8.581E-01      NO             0           0              YES
+   C                 3       9.995E-02    4.961E-02   4.893E-01      NO             0           0              YES
+   C                 4       6.689E-02    4.275E-02   8.252E-02      NO             0           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 18TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             1           0              YES
+   C                 1       4.842E-01    2.006E-02   9.499E+00      NO             1           0              YES
+   C                 2       1.681E-01    1.027E-02   1.873E+00      NO             1           0              YES
+   C                 3       1.340E-01    4.863E-02   3.091E-01      NO             1           0              YES
+   C                 4       1.582E-01    1.862E-02   7.483E-01      NO             1           0              YES
+   C                 5       3.508E-01    4.861E-02   1.832E-01      NO             1           0              YES
+   C                 6       5.574E-01    4.105E-02   5.184E-01      NO             1           0              YES
+   C                 7       6.419E-01    6.482E-02   5.938E-01      NO             1           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 18TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             2           0              YES
+   C                 1       4.849E-01    7.534E-03   2.734E+00     YES             2           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 19TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             2           0              YES
+   C                 1       5.801E-01    8.051E-03   1.163E+00     YES             2           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 20TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             1           0              YES
+   C                 1       7.029E-01    2.770E-02   2.594E+00      NO             1           0              YES
+   C                 2       1.458E-01    2.623E-02   1.618E+01      NO             1           1              YES
+   C                 3       2.220E-01    1.730E-02   1.072E+00      NO             1           0              YES
+   C                 4       2.098E-01    8.291E-02   1.178E-02      NO             1           1              YES
+
+     NEWTON SOLVER STATISTICS FOR 20TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             2           0              YES
+   C                 1       7.163E-01    1.165E-02   3.922E+00      NO             2           0              YES
+   C                 2       2.418E-01    1.496E-02   9.928E-01      NO             2           0              YES
+   C                 3       3.476E-01    1.908E-02   9.054E-01      NO             2           0              YES
+   C                 4       5.771E-01    3.649E-02   7.946E-01      NO             2           0              YES
+   C                 5       6.785E-01    9.494E-02   2.257E-01      NO             2           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 20TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             3           0              YES
+   C                 1       7.437E-01    1.749E-02   5.780E-01      NO             3           0              YES
+   C                 2       3.712E-01    1.342E-02   7.772E-01      NO             3           0              YES
+   C                 3       3.810E-01    1.927E-02   5.826E-01      NO             3           0              YES
+   C                 4       5.882E-01    3.182E-02   5.863E-01      NO             3           0              YES
+   C                 5       6.296E-01    1.787E-01   7.869E-02      NO             3           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 20TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             4           0              YES
+   C                 1       7.798E-01    1.877E-02   1.052E-01      NO             4           0              YES
+   C                 2       4.002E-01    1.248E-02   8.081E-01      NO             4           0              YES
+   C                 3       4.890E-01    3.509E-02   3.371E-01      NO             4           0              YES
+   C                 4       6.478E-01    3.191E-02   7.415E-01      NO             4           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 20TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             5           0              YES
+   C                 1       7.609E-01    1.538E-02   1.108E-01      NO             5           1              YES
+   C                 2       6.341E-01    1.206E-02   8.121E-01      NO             5           0              YES
+   C                 3       3.940E-01    1.347E-02   5.048E-01      NO             5           0              YES
+   C                 4       6.104E-01    2.382E-02   6.044E-01      NO             5           0              YES
+   C                 5       7.081E-01    4.665E-02   3.107E-01      NO             5           0              YES
+   C                 6       7.628E-01    8.283E-02   4.662E-01      NO             5           0              YES
+
+     NEWTON SOLVER STATISTICS FOR 20TH LOAD INCREMENT -- INCREASING LOAD FACTOR TO 1.0000
+CONVERGENCE CRITERIA: EPS(FORCE) = 1.000E-02  
+PREDICTOR(P)/      ITER          CONVERGENCE MEASURES                           BISECTION    NUMBER OF       STIFFNESS 
+CORRECTOR(C)      NUMBER      DISP(U)      FORCE(P)    WORK(W)   CONVERGENCE      LEVEL    LINE SEARCHES      UPDATE
+   P                         1.000E+00    1.000E+00   1.000E+00      NO             6           0              YES
+   C                 1       7.661E-01    1.448E-02   4.196E-02      NO             6           1              YES
+   C                 2       7.626E-01    9.876E-03   8.746E-01     YES             6           0              YES
+
+
+SUBCASE : Slope Stability(SRM) : INCR=20 (FOS=2.0516)
+
+
+
+             S R M   F A C T O R   O F   S A F E T Y
+ MINIMUM FACTOR OF SAFETY: 2.05156
+
+
+-------------------------------------------------------------------------------------------------------------------
+                                                                                                                   
+  YOUR JOB IS SUCCESSFULLY COMPLETED.......                                                                        
+  TOTAL SOLUTION TIME: 23.854 SECONDS.
+                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------
